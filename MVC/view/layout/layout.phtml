@@ -6,6 +6,18 @@
 </head>
 <body>
 
-		
+		<h1>Sistema MVC - Usuarios</h1>
+                <a href="index.php?rota=usuarios/listar">Listar Usuários</a> |
+                <a href="index.php?rota=usuarios/inserir">Inserir Usuários</a>
+                <hr>
+		<?php
+			$file = __DIR__ . DIRECTORY_SEPARATOR. "$caminhoView.phtml";
+
+			require $file;
+
+			//require __DIR__ . DIRECTORY_SEPARATOR. "$caminhoView.phtml";
+		?>
+
+
 </body>
 </html>

@@ -1,3 +1,10 @@
 <?php
 
-echo '<h1>Sistema MVC</h1>';
+
+use Lib\Controller\FrontController;
+
+require '../autoload.php';
+
+$objFrontController = new FrontController();
+
+$objFrontController->run();
