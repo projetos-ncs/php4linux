@@ -6,7 +6,6 @@ class ViewModel {
     {
 
        $file = __DIR__ . '/../../../view/layout/layout.phtml';
-        echo $file;        
         require  $file;
     }
 }
