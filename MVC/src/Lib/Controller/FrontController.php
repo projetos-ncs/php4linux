@@ -8,6 +8,7 @@ class FrontController
    public function run()
    {
        $rota = $_GET['rota'] ?? "index" . DIRECTORY_SEPARATOR. "index";
+     
          
        $parseRota = explode('/', $rota);  
        $controller = $parseRota[0];
