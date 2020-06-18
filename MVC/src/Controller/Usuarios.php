@@ -19,4 +19,8 @@ class Usuarios {
         return __METHOD__;
     }
     
+    public function inserir()
+    {
+        return __METHOD__;
+    }
 }

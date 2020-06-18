@@ -4,11 +4,8 @@ namespace  Controller;
 class Index {
     public function index() {
 
-        return '<h1>Hello World</h1><br>';
+        return '<h1>Hello World</h1>';
 
     }
 
-  public function teste() {
-      return __METHOD__;
-  }
 }
